@@ -1,0 +1,104 @@
+body {
+    font-family: 'Kanit', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 40px;
+    height: 30px;
+    padding-left: 3px;
+
+}
+
+.padding-left {
+    padding-left: 30px;
+}
+
+p {
+    text-align: justify;
+}
+
+.name-color {
+    color: rgb(226, 175, 9);
+}
+
+.flexible-container {
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.half-wight {
+    width: 50%;
+    padding-left: 2%;
+
+}
+
+.half-wight img {
+    width: 60%;
+    padding-left: 10%;
+    padding-top: 30px;
+}
+
+.hire-button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, rgb(191, 36, 36));
+    border-radius: 5px;
+    padding: 5px 25px;
+    color: white;
+    font-weight: 700;
+
+}
+
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+
+}
+
+.second-banner {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+
+.third-banner {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: left;
+
+}
+
+.third-banner p {
+    padding-left: 2px;
+}
+
+.exp-developer {
+    box-shadow: 10px 10px 5px rgb(238, 229, 229);
+    margin-left: 27px;
+    padding-left: 1%;
+    border-radius: 12px;
+
+}
+
+#full-stack-dev {
+    border-left: 7px solid rgb(239, 179, 67);
+}
+
+#baby-dev {
+    border-left: 7px solid greenyellow;
+}
+
+#Programming-dev {
+    border-left: 7px solid blue;
+}
+
+
+footer {
+    text-align: center;
+    text-shadow: 70% rgb(21, 21, 8);
+    font-size: small;
+    color: rgb(38, 8, 8);
+    font-weight: 600;
+}
