@@ -82,6 +82,10 @@ p {
 
 }
 
+#ds-dev {
+    border-left: 7px solid rgb(191, 113, 29);
+}
+
 #full-stack-dev {
     border-left: 7px solid rgb(239, 179, 67);
 }
